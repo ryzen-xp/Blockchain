@@ -1,4 +1,5 @@
-use crate::block::Block;
+pub mod Blockcahin {
+    
 
 pub struct Blockchain {
     pub chain: Vec<Block>,
@@ -32,4 +33,6 @@ impl Blockchain {
         }
         true
     }
+}
+
 }
