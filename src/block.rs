@@ -1,5 +1,4 @@
-pub mod blocks { 
-    use sha2::{Sha256, Digest}; // Import SHA-256 hashing
+use sha2::{Sha256, Digest}; // Import SHA-256 hashing
 use chrono::Utc; // Import timestamp
 use serde::{Serialize, Deserialize}; // For JSON serialization
 
@@ -24,7 +23,7 @@ impl Block {
             data,
             nonce: 0,
         };
-        block.mine_block(2); // Adjust difficulty here
+        block.mine_block(6); // Adjust difficulty here
         block
     }
 
@@ -45,5 +44,4 @@ impl Block {
             self.hash = self.calculate_hash();
         }
     }
-}
 }

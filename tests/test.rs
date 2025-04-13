@@ -1,7 +1,7 @@
 #[cfg()]
-mod test{
-  #[test]
-  pub fn test_this(){
-    assert!(true , "you right");
-  }
+mod test {
+    #[test]
+    pub fn test_this() {
+        assert!(true, "you right");
+    }
 }
