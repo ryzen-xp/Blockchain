@@ -1,5 +1,5 @@
-pub mod  block;
-pub mod  blockchain;
+pub mod block;
+pub mod blockchain;
 use crate::blockchain::Blockchain;
 
 fn main() {
@@ -17,4 +17,3 @@ fn main() {
 
     println!("Is blockchain valid? {}", blockchain.is_valid());
 }
-

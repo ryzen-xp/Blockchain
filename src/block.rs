@@ -1,6 +1,6 @@
-use sha2::{Sha256, Digest}; // Import SHA-256 hashing
 use chrono::Utc; // Import timestamp
-use serde::{Serialize, Deserialize}; // For JSON serialization
+use serde::{Deserialize, Serialize};
+use sha2::{Digest, Sha256}; // Import SHA-256 hashing // For JSON serialization
 
 #[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct Block {

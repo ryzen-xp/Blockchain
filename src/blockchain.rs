@@ -1,5 +1,6 @@
- use crate::block::Block;
- pub struct Blockchain {
+
+use crate::block::Block;
+pub struct Blockchain {
     pub chain: Vec<Block>,
 }
 
